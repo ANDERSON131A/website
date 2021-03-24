@@ -1,0 +1,179 @@
+/*
+採用Noto Sans TC字體 power by ancraft
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.imgur.com/Y7HXll2.png');
+    height: 91.31px;
+    background-size: cover;
+    background-position: center;
+		background-attachment: fixed;
+    transition: 0.7s ease;
+    position: -webkit-sticky; /* Safari */
+    /*position: sticky; *浮動導覽行*/
+    top: 0;
+    z-index: 1;
+}
+
+
+.main{
+  max-width: 1311px;
+  margin: auto;
+}
+
+
+.logo img{
+  float: none;
+  width: 300px;
+  height: auto;
+  margin-top: 23px;
+  transition: 0.7s ease;
+}
+
+
+.main ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 36px;
+  margin-right: 31px;
+}
+
+
+.main ul li{
+  display: inline-block;
+}
+
+
+.main ul li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 9px 13.1px;
+  border: 3px solid #ffffff;
+  transition: 0.7s ease;
+}
+
+
+.main ul li a:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* 上方網站導覽行 */
+
+
+
+/* 內容區塊 */
+.section{
+  margin-left: 13rem;
+  margin-right: 1px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  overflow-x: hidden;
+}
+
+.section img {
+}
+
+.section img {
+
+}
+
+.sect{
+
+}
+
+.c {
+
+}
+/* 內容區塊 */
+
+
+
+/* 網頁導覽面板 */
+.guide {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  float: left;
+  padding-top: 31px;
+  padding-left: 31px;
+  z-index: 3;
+}
+
+.guide a {
+  color:#e3c333;
+  transition: 0.7s, border 1.3s, color 1.3s;
+  border: 0px solid #fff;
+  border-style: none none solid none;
+  padding-right: 0rem;
+  line-height: 0px;
+  transition-timing-function: ease-out;
+  text-decoration: none;
+}
+
+.guide a:hover{
+  color: #e3fff3;
+  transition: 0.7s ease;
+  padding-left: 1rem;
+}
+
+.guide:hover a{
+  border: 3px solid #fff;
+  border-style: none none solid none;
+  transition: 0.7s ease;
+  padding-right: 3rem;
+  line-height: 3px;
+}
+/* 網頁導覽面板 */
+
+/*scrollbar調整區*/
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #313131;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a3a1;
+}
+/*scrollbar調整區*/
+
+/*內文與圖片設計*/
+.c {
+  float: left;
+  width: 50%;
+  margin-left: -0px;
+}
+
+.sect:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imge {
+  margin-left:60px;
+}
+/*內文與圖片設計*/
+
+@media screen and (max-width: 583px) {
+  header {
+    height: auto;
+  }
+  .main ul{
+    margin-right: 3px;
+  }
+
+}

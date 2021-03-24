@@ -1,0 +1,124 @@
+/*
+採用Noto Sans TC字體 power by ancraft
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://i.imgur.com/Y7HXll2.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+		background-attachment: fixed;
+    transition: 0.7s ease;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;/***/
+    top: 0;
+    z-index: 1;
+}
+
+
+.main{
+max-width: 1311px;
+margin: auto;
+}
+
+
+.logo img{
+float: laft;
+width: 300px;
+height: auto;
+margin-top: 23px;
+transition: 1.31s ease;
+}
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 31px;
+  margin-right: 31px;
+}
+
+
+ul li{
+  display: inline-block;
+}
+
+
+ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 9px 13.1px;
+border: 3px solid #ffffff;
+transition: 0.7s ease;
+}
+
+
+ul li a:hover{
+background-color: #ffffff;
+color: #000000;
+}
+
+
+.title{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.title h1{
+color: #fff;
+font-size: 70px;
+overflow: hidden;
+border-right: .13em solid orange;
+white-space: nowrap;
+margin: 0 auto;
+letter-spacing: .16em;
+animation:
+  typing 1.31s steps(5 , end),
+  blink-caret .7s step-end infinite;
+}
+
+
+.button{
+position: absolute;
+top: 63%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.btn{
+border: 1px solid #ffffff;
+padding: 10px 30px;
+color: #ffffff;
+text-decoration: none;
+transition: 0.7s ease;
+}
+
+
+.btn:hover{
+background-color: #ffffff;
+color: #000000;
+}
+
+
+
+/* 輸入打字效果 */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* 輸入光標效果 */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
